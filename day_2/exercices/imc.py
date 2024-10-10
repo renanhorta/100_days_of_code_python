@@ -1,4 +1,6 @@
 def BMI(height, weight):
+    height = float(height)
+    weight = float(weight)
     if height or weight != None or "":
         result = float((weight) / (height **2))
         return round(result, 2)
